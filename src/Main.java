@@ -2,10 +2,10 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int price_ticket = 15000; /*цена билета*/
-        int price_mile = 20; /*цена 1 мили*/
-        int amount_mile;  /*количество начисленных миль*/
-        amount_mile = price_ticket / price_mile;
-        System.out.println("Количество начисленных бонусных миль:" + amount_mile);
+        int priceTicket = 15000; /*цена билета*/
+        int priceMile = 20; /*цена 1 мили*/
+        int amountMile;  /*количество начисленных миль*/
+        amountMile = priceTicket / priceMile;
+        System.out.println("Количество начисленных бонусных миль: " + amountMile);
     }
 }
