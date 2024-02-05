@@ -3,6 +3,6 @@ public class BonusMilesService {
         int priceMile = 20; /*цена 1 мили*/
         int miles;  /*количество начисленных миль*/
         miles = price / priceMile;
-    return miles;
+        return miles;
     }
 }
